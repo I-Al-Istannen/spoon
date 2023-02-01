@@ -1,0 +1,6 @@
+jdk:
+  - openjdk11
+
+install:
+  - cd spoon-pom
+  - mvn install -DskipDepClean=true -Dmaven.test.skip=true
